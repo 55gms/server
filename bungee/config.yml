@@ -11,7 +11,7 @@ listeners:
   priorities:
   - lobby
   bind_local_address: false
-  host: 127.0.0.1:25577
+  host: 64.181.208.63:25570
   max_players: 1
   tab_size: 60
   force_default_server: true
@@ -46,5 +46,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 0.0.0.0:25565
+    address: 64.181.208.63:25570
     restricted: false
