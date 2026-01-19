@@ -11,7 +11,7 @@ listeners:
   priorities:
   - lobby
   bind_local_address: false
-  host: 64.181.208.63:25570
+  host: 64.181.208.63:25577
   max_players: 1
   tab_size: 60
   force_default_server: true
