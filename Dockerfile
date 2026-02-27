@@ -5,7 +5,6 @@ FROM eclipse-temurin:8-jre
 WORKDIR /app
 
 # Copy the server and bungee folders from your repo into the container
-COPY server/ /app/server/
 COPY bungee/ /app/bungee/
 
 # Copy the entrypoint script we created above
@@ -17,7 +16,7 @@ RUN chmod +x /app/entrypoint.sh
 # Expose necessary ports:
 # 8081  - Eaglercraft WebSocket (defined in listeners.yml)
 # 25577 - BungeeCord Standard Port
-EXPOSE 8081 25577
+EXPOSE 8081 25565
 
 # Start the server
 CMD ["/app/entrypoint.sh"]
