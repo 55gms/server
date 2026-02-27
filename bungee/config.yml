@@ -1,6 +1,6 @@
 enforce_secure_profile: false
 listeners:
-- query_port: 25577
+- query_port: 25565
   motd: '&1Another Bungee server'
   tab_list: GLOBAL_PING
   query_enabled: false
@@ -11,7 +11,7 @@ listeners:
   priorities:
   - lobby
   bind_local_address: false
-  host: 0.0.0.0:25577
+  host: 0.0.0.0:25565
   max_players: 1
   tab_size: 60
   force_default_server: true
@@ -45,10 +45,10 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another Waterfall - Forced Host'
-    address: 64.181.208.63:25570
+    motd: '&cLobby'
+    address: 64.181.208.63:25099
     restricted: false
-  test:
-    motd: '&1Just another Waterfall - Forced Host'
-    address: 152.53.37.155:25565
+  survival:
+    motd: '&cSurvival'
+    address: 185.83.155.41:25570
     restricted: false
