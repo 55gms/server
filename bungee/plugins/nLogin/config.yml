@@ -252,7 +252,7 @@ security:
     limit:
       # Sets whether the per-IP account limiter should be used.
       # - This option can prevent fake accounts.
-      enable: true
+      enable: false
 
       # Sets the maximum number of records per IP address.
       max: 3
