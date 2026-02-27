@@ -168,14 +168,14 @@ limbo:
   #
   # - It is recommended to disable this option in case of conflicts with other
   #   plugins that handle these options (e.g. lobby plugins).
-  hide-player-stats: true
+  hide-player-stats: false
 
   # Sets whether items should be hidden before logging in.
   hide-player-inventory: true
 
   # Sets whether other players should be hidden before logging in.
   # - This option can prevent spamming of bots in the server's player list.
-  hide-unauthenticated-players: true
+  hide-unauthenticated-players: false
 
   # Defines whether the movement should be locked before authenticating.
   block-player-movement: true
@@ -228,7 +228,7 @@ security:
 
   nickname:
     # Set the regex for nickname validation.
-    validation-regex: '([a-zA-Z0-9_]{3,16})'
+    validation-regex: "([a-zA-Z0-9_]{3,16})"
 
     kick-unregistered:
       # Defines whether unregistered players should be blocked.
@@ -272,8 +272,8 @@ security:
 
         # Defines the list of IPs that ignore the limitation.
         ips:
-          - '127.0.0.1'
-          - 'localhost'
+          - "127.0.0.1"
+          - "localhost"
 
   passwords:
     # Sets the minimum password size.
