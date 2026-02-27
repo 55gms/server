@@ -48,3 +48,7 @@ servers:
     motd: '&1Just another Waterfall - Forced Host'
     address: 64.181.208.63:25570
     restricted: false
+  test:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 152.53.37.155:25565
+    restricted: false
